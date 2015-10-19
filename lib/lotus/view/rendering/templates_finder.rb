@@ -20,7 +20,7 @@ module Lotus
         #
         # @api private
         # @since 0.1.0
-        ENGINES   = '*'.freeze
+        ENGINES   = '*[a-zA-Z0-9]'.freeze
 
         # Recursive pattern
         #
